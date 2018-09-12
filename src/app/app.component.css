@@ -1,0 +1,19 @@
+.pagination li:hover, .pagination li.active {
+    background: #5b9b69 !important;
+    color: #ffffff;
+}
+
+.pr_nav {
+    display: block;
+    font-family: monospace;
+    background: linear-gradient(to bottom, #787878 0%, #91e6d5 100%);
+    padding: 1rem 1rem;
+}
+.badge {
+    padding: .5em;
+    font-size: 13px;
+}
+
+.column {
+    width: 40%;
+}
