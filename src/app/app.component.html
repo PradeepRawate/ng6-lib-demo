@@ -26,10 +26,10 @@
       <tr class="text-center">
         <td colspan="3">
           <!-- Using Library -->
-          <!-- <my-pagination *ngIf="employees.length > 0" [allItems]="employees" [pageSize]="5" (pageChange)="page = $event" [showInfo]="true"></my-pagination> -->
+          <my-pagination *ngIf="employees.length > 0" [allItems]="employees" [pageSize]="5" (pageChange)="page = $event" [showInfo]="true"></my-pagination>
 
           <!-- Using Local Component -->
-          <ng6-pagination *ngIf="employees.length > 0" [allItems]="employees" [pageSize]="5" [showInfo]="true" (pageChange)="page = $event"></ng6-pagination>
+          <!-- <ng6-pagination *ngIf="employees.length > 0" [allItems]="employees" [pageSize]="5" [showInfo]="true" (pageChange)="page = $event"></ng6-pagination> -->
         </td>
       </tr>
     </tbody>
